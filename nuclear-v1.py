@@ -29,9 +29,13 @@ def scan():
         else: 
             print(Fore.LIGHTGREEN_EX + "[+] The port is open")
 print(Fore.BLUE + "End of the scan")
+def exit():
+    exit = input(Fore.BLUE + "To exit, press q : ")
+    if exit == "q":
+        sys.exit()
+    
 
-
-                                        
+                                       
 
 def Start():
     Clear()
@@ -48,7 +52,7 @@ def Start():
                                                                                                                 
                         
                                          Press [t] for access the tool
-                                         Made by Onii | Discord : Onii#0404                        """)
+                                       Made by Onii | Discord : Onii#0404          """)
 
     press = input(Fore.RED + "[>] : ")
 
@@ -95,6 +99,7 @@ def printTitle():
         main()
 Start()
 printTitle()
+
 
 
 
