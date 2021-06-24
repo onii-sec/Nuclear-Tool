@@ -47,7 +47,8 @@ def Start():
                                                 ▀                                        
                                                                                                                 
                         
-                                         Press [t] for access the tool          """)
+                                         Press [t] for access the tool
+                                         Made by Onii | Discord : Onii#0404                        """)
 
     press = input(Fore.RED + "[>] : ")
 
